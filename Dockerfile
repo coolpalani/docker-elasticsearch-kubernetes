@@ -6,7 +6,7 @@ MAINTAINER palaniecestar@gmail.com
 ADD config /elasticsearch/config
 
 # Set environment
-ENV DISCOVERY_SERVICE elasticsearch-discovery
+#ENV DISCOVERY_SERVICE elasticsearch-discovery
 
 # Kubernetes requires swap is turned off, so memory lock is redundant
-ENV MEMORY_LOCK false
+#ENV MEMORY_LOCK false
