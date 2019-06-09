@@ -1,4 +1,4 @@
-FROM quay.io/coolpalani/docker-elasticsearch:7.1.0
+FROM quay.io/coolpalani/docker-elasticsearch:v6.7.2
 
 MAINTAINER palaniecestar@gmail.com
 
